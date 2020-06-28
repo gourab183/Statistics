@@ -14,7 +14,7 @@
     "test": "jest --verbose"
   },
   "heroku-run-build-script": true,
-  "devDependencies": {
+  "dependencies": {
     "babel-loader": "^6.2.8",
     "babel-plugin-transform-runtime": "^6.23.0",
     "babel-preset-env": "^1.7.0",
@@ -28,9 +28,7 @@
     "style-loader": "^0.13.1",
     "webpack": "^1.13.3",
     "webpack-dev-middleware": "^1.8.4",
-    "webpack-node-externals": "^1.5.4"
-  },
-  "dependencies": {
+    "webpack-node-externals": "^1.5.4",
     "apexcharts": "^3.19.3",
     "axios": "^0.19.2",
     "babel-cli": "^6.18.0",
