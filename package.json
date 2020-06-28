@@ -5,11 +5,12 @@
   "repository": "https://github.com/gourab183/Statistics.git",
   "license": "MIT",
   "engines": {
-    "node": "10.15.3"
+    "node": "10.15.3",
+    "npm": "6.4.1"
   },
   "scripts": {
     "build": "webpack --config ./webpack/webpack.config.dev-ssr.js",
-    "start": "npm run build && ./node_modules/.bin/babel-node server/index.js",
+    "start": "npm run build && babel-node server/index.js",
     "test": "jest --verbose"
   },
   "heroku-run-build-script": true,
