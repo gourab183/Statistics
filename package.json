@@ -9,7 +9,7 @@
   },
   "scripts": {
     "build": "webpack --config ./webpack/webpack.config.dev-ssr.js",
-    "start": "npm run build && babel-node -- server/index.js",
+    "start": "npm run build && ./node_modules/.bin/babel-node server/index.js",
     "test": "jest --verbose"
   },
   "heroku-run-build-script": true,
