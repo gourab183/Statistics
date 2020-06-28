@@ -1,0 +1,1 @@
+export const column = ["Comments", "Vote Count", "Upvote", "News Details"];
