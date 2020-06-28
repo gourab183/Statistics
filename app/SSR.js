@@ -7,6 +7,6 @@ export default function render(req, res) {
   const appString = renderToString(<App />);
   res.send(template({
     body: appString,
-    title: 'FROM THE SERVER',
+    title: 'Statistics',
   }));
 }

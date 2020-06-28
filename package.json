@@ -14,7 +14,6 @@
   },
   "heroku-run-build-script": true,
   "devDependencies": {
-    "babel-cli": "^6.18.0",
     "babel-loader": "^6.2.8",
     "babel-plugin-transform-runtime": "^6.23.0",
     "babel-preset-env": "^1.7.0",
@@ -33,6 +32,7 @@
   "dependencies": {
     "apexcharts": "^3.19.3",
     "axios": "^0.19.2",
+    "babel-cli": "^6.18.0",
     "chart.js": "^2.9.3",
     "express": "^4.14.0",
     "querystring": "^0.2.0",
