@@ -41,14 +41,14 @@ const Tabular = (props) => {
                 <a
                     onKeyUp={pageNo === 1 ? () => { return false } : handlePrev}
                     onClick={pageNo === 1 ? () => { return false } : handlePrev}
-                    className={pageNo === 1 ? style.disabledLink : style.activeLink}
+                    className={pageNo === 1 ? `${style.disabledLink} prevPage` : `${style.activeLink} prevPage`}
                     tabIndex={pageNo === 1 ? "-1" : "0"}>Prev
                     </a>
-                <span className={style.separator}>|</span>
+                <span className={`sep ${style.separator}`}>|</span>
                 <a
                     onKeyUp={pageNo === nbPage ? () => { return false } : handleNext}
                     onClick={pageNo === nbPage ? () => { return false } : handleNext}
-                    className={pageNo === nbPage ? style.disabledLink : style.activeLink}
+                    className={pageNo === nbPage ? `${style.disabledLink} nextPage` : `${style.activeLink} nextPage`}
                     tabIndex={pageNo === nbPage ? "-1" : "0"}>Next
                     </a>
             </div>

@@ -1,0 +1,11 @@
+{
+  "testPathIgnorePatterns": [
+    "/node_modules/",
+    "/dist/"
+  ],
+  "moduleFileExtensions": [
+    "js",
+    "jsx"
+  ],
+  "coverageDirectory": "test"
+}
