@@ -1,1 +1,1 @@
-web: npm start
+web: npm run build:dev && babel-node -- server/index.js
