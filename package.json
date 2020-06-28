@@ -2,16 +2,17 @@
   "name": "react-ssr-tut",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://github.com/hyperh/react-ssr-tut.git",
+  "repository": "https://github.com/gourab183/Statistics.git",
   "license": "MIT",
   "engines": {
     "node": "10.15.3"
   },
   "scripts": {
-    "build:dev": "webpack --config ./webpack/webpack.config.dev-ssr.js",
-    "start": "npm run build:dev && babel-node -- server/index.js",
+    "build": "webpack --config ./webpack/webpack.config.dev-ssr.js",
+    "start": "npm run build && babel-node -- server/index.js",
     "test": "jest --verbose"
   },
+  "heroku-run-build-script": true,
   "devDependencies": {
     "babel-cli": "^6.18.0",
     "babel-loader": "^6.2.8",
